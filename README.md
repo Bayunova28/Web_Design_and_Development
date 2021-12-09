@@ -1,7 +1,7 @@
 # Web Design and Development Course
 <img src="https://github.com/Bayunova28/Web_Design_and_Development/blob/main/wp6784380.jpg" width="1000" height="400">
 
-## Modules
+## Module
 > My weekly assignments from web design and development course in college
 - HTML & CSS [[📂](https://github.com/Bayunova28/Web_Design_and_Development/tree/main/HTML%20%26%20CSS)]
 - Flexbox and Grid [[📂](https://github.com/Bayunova28/Web_Design_and_Development/tree/main/Flexbox%20and%20Grid)]
