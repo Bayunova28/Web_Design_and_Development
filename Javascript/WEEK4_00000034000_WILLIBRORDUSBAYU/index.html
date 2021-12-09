@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World</title>
+</head>
+    <script>
+        angkarandom = Math.floor((Math.random() *100)+1);
+        document.write(random);
+    </script>
+    <script>
+        alert("Selamat Datang di Permainan Tebak Angka");
+    </script>
+        <p id="guess"></p>
+		<script>
+			var guess = prompt("Tebak angka antara 0-100");
+			if (guess < 40){
+				document.getElementById("guess").innerHTML = guess + " terlalu kecil.";
+			}
+            if (guess > 40){
+                document.getElementById("guess").innerHTML = guess + " terlalu besar.";
+            }
+    </script>
+    <script>
+            var again = confirm("Main lagi?");
+            if (again == true){
+                guess = prompt("Tebak angka antara 0-100");
+            }
+            if (guess < 40){
+				document.getElementById("guess").innerHTML = guess + " terlalu kecil.";
+			}
+            if (guess > 40){
+                document.getElementById("guess").innerHTML = guess + " terlalu besar.";
+            }
+            if (guess == 41){
+                document.getElementById("guess").innerHTML = "PAS BANGET Tebakan kamu " + guess;
+            } 
+    </script>
+    <script>
+            exit = alert("Makasih ya udah nyobain!");
+    </script>
+</html>
