@@ -1,0 +1,17 @@
+*{
+    padding: 0 auto;
+    margin: 10px;
+}
+
+#input{
+    background-color: #bdbdbd;
+}
+
+#input #boxNama{
+    padding-right: 986px;
+}
+
+#input #boxChat{
+    padding-right: 1000px;
+    padding-bottom: 70px;
+}
