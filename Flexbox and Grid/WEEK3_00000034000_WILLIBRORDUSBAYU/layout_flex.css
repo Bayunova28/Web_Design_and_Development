@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#bungkus {
+    width: 1000px;
+    margin: 25px auto 0;
+    overflow: hidden;
+}
+
+#logo {
+    float: left;
+    margin-top: -10px;
+}
+
+#logo img {
+    height: 70px;
+    margin-top: 20px;
+    width: 50px;
+}
+
+nav {
+    float: left;
+    margin-top: 60px;
+    margin-left: -70px;
+}
+
+nav ul{
+    margin-top: 40px;
+    padding-bottom: 20px;
+    background-color:#494949;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 91px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding-top: 15px;
+    font-weight: normal;
+    color: white;
+}
+
+#sidebar {
+    margin-left: 710px;
+    margin-top: -1160px;
+    margin-bottom: 500px;
+    margin-right: 30px;
+    color: grey;
+}
+
+#sidebar button {
+    border-style: none;
+    color: rgb(143, 143, 143);
+    border-width: medium;
+    font-size: medium;
+    background-color: rgb(235, 233, 233);
+}
+
+#konten h1 {
+    margin-top: 220px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: -170px;
+    font-weight: normal;
+    color: grey;
+}
+
+#konten h2 {
+    font-weight: normal;
+    color: rgb(95, 95, 95);
+}
+
+#konten p {
+    padding-right: 320px;
+    margin-right: 15px;
+    color: grey;
+}
+
+#footer {
+    padding: 20px 0;
+    background-color: #1B1919;
+    color: grey;
+    margin-top: 60px;
+}
+
+#footer span {
+    margin-left: 450px;
+}
+
+#tagline {
+    margin-top: -45px;
+}
+
+#tagline button {
+    background-color: #1B1919;
+    color: white;
+    border-width: medium;
+}
